@@ -3,6 +3,7 @@ title: "week 4"
 author: Miriam Wu
 format: html
 editor: visual
+bibliography: reference.bib
 ---
 
 ```{r}
@@ -36,6 +37,13 @@ penguins |>
 
 
 As shown in @fig-penguins-scatter, there is a clear positive correlation bewteen flipper length and body mass. The specific averages for each group are deatiled in @tbl-penguin-summary.
+
+
+
+## References
+
+This data is from [@penguins_data]
+
 
 
 

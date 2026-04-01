@@ -59,7 +59,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="week 4_files/libs/clipboard/clipboard.min.js"></script>
@@ -213,8 +232,17 @@ Table&nbsp;1: Mean body mass of penguins by species and sex.
 </div>
 <p><a href="#tbl-penguin-summary" class="quarto-xref">Table&nbsp;1</a> lits all the average mass of different species by different sex.</p>
 <p>As shown in <a href="#fig-penguins-scatter" class="quarto-xref">Figure&nbsp;1</a>, there is a clear positive correlation bewteen flipper length and body mass. The specific averages for each group are deatiled in <a href="#tbl-penguin-summary" class="quarto-xref">Table&nbsp;1</a>.</p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>This data is from <span class="citation" data-cites="penguins_data">(<a href="#ref-penguins_data" role="doc-biblioref">Horst et al. 2020</a>)</span></p>
 
-</main>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-penguins_data" class="csl-entry" role="listitem">
+Horst, Allison Marie, Alison Presmanes Hill, and Kristen B Gorman. 2020. <em>Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data</em>. <a href="https://doi.org/10.5281/zenodo.3960218">https://doi.org/10.5281/zenodo.3960218</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
