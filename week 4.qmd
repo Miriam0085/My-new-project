@@ -32,5 +32,11 @@ penguins |>
   knitr::kable()
 ```
 
-
 @tbl-penguin-summary lits all the average mass of different species by different sex.
+
+
+As shown in @fig-penguins-scatter, there is a clear positive correlation bewteen flipper length and body mass. The specific averages for each group are deatiled in @tbl-penguin-summary.
+
+
+
+
