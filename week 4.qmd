@@ -16,10 +16,14 @@ library(palmerpenguins)
 ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
   geom_point() +
   theme_minimal()
+
+```
+
+```{r{}
+
 ```
 
 @fig-penguins-scatter illustrates the relationship between flipper length and body mass of different species.
-
 
 ```{r}
 #| label: tbl-penguin-summary
@@ -35,16 +39,8 @@ penguins |>
 
 @tbl-penguin-summary lits all the average mass of different species by different sex.
 
-
 As shown in @fig-penguins-scatter, there is a clear positive correlation bewteen flipper length and body mass. The specific averages for each group are deatiled in @tbl-penguin-summary.
-
-
 
 ## References
 
 This data is from [@penguins_data]
-
-
-
-
-
